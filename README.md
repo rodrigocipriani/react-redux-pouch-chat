@@ -1,6 +1,10 @@
-# Condomínio # 0.0.1
+# React Redux PouchDB Chat
 
-Sistema teste
+[insert demonstration images]
+
+[Example with socket-io](https://github.com/ivmarcos/react-redux-socketio-chat)
+
+## Usage
 
 ## Dependências ##
 
