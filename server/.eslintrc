@@ -1,0 +1,60 @@
+extends:
+  eslint-config-airbnb
+
+parser:
+  babel-eslint
+
+settings:
+  ecmascript: 6
+
+#ecmaFeatures:
+#  modules: true
+#  destructuring: true
+#  classes: true
+#  forOf: true
+#  blockBindings: true
+#  arrowFunctions: true
+
+rules:
+  arrow-body-style: 0
+  arrow-parens: 0
+  class-methods-use-this: 0
+  func-names: 0
+  max-len: ['error', 121]
+  indent: ['error', 2]
+  linebreak-style: 0
+  key-spacing: ["error", {
+      "multiLine": {
+          "beforeColon": false,
+          "afterColon": true
+
+      },
+      "align": {
+          "beforeColon": false,
+          "afterColon": true,
+          "on": "colon",
+          "mode": "strict"
+      }
+  }]
+  new-cap: 0
+  no-plusplus: 0
+  no-return-assign: 0
+  quote-props: 0
+  template-curly-spacing: [2, "always"]
+  comma-dangle: ["error", {
+    "arrays": "only-multiline",
+    "objects": "only-multiline",
+    "imports": "only-multiline",
+    "exports": "only-multiline",
+    "functions": "never"
+  }]
+  "no-multi-spaces": [1, {
+      "exceptions": {
+          "VariableDeclarator": true
+      }
+  }]
+  react/prefer-stateless-function: 0
+  import/extensions: 0
+  import/no-extraneous-dependencies: 0
+  import/no-unresolved: 0
+  import/prefer-default-export: 0

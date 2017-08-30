@@ -1,0 +1,25 @@
+{
+  "name": "rodrigocipriani",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server/servidor.js",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy",
+    "postinstall": "gulp install",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.10.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "gulp": "^3.9.1",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.6.3"
+  }
+}
