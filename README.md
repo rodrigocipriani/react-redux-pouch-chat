@@ -1,27 +1,35 @@
-# Condomínio # 0.0.1
+# React Redux Pouch Chat # 0.0.1
 
-Sistema teste
+Example Chat App with:
 
-## Dependências ##
+- Webpack 3
+- React
+- Redux
+- PouchDB
+- ExpressJS
+- CouchDB
+- SequelizeJS
+- Postgres
 
-- Nodejs [Baixe aqui [https://nodejs.org](https://nodejs.org)]
-- Npm [Vem junto com Node]
+## Dependencies ##
+
+- Nodejs [Download [https://nodejs.org](https://nodejs.org)]
+- Npm [with node]
 - nodemon [npm install -g nodemon]
 
-## Como rodar o projeto ##
+## How to Development ##
 
-- Crie uma pasta workspace no seu diretório home
-- Digite no console `git clone https://github.com/rodrigocipriani/condominio.git`
-- Execute o comando `npm i`
-- Execute o comando `npm start` ou `npm run dev` para o modo de desenvolvimento
-- Acesso o endereço `localhost:8080` no navegador
+- Clone this repository `git clone https://github.com/rodrigocipriani/condominio.git`
+- Intall dependencies `npm i` or `yarn`
+- Start desenv `yarn dev` ou `npm run dev`
+- Open on browser `localhost:8080`
 
-## Como fazer deploy ##
+## How to deploy ##
 
 - Execute o comando `npm run depoy`
 - Acesse `rodrigocipriani.herokuapp.com`
 
-## Scripts
+## Scripts ##
 
 - Build: `npm run build`
 
@@ -33,13 +41,10 @@ Sistema teste
     ├── /client           # your browser code
     │   ├── /build        # build files by webpack
     │   ├── /config       # configs to run your project
-    │   ├── /fonts        # source Fonts to webpack load with your build
     │   ├── /public       # ... Coming soon
     │   ├── /src          # source files, where your modules will be located
     │   │   ├── /App      # working sample of App implementation. Fell free to change.
     │   │   ├── /assets   # images and files to compose your project (don't use for uploads files, etc)
-    │   │   ├── /Auth     # working sample of Auth implementation. Fell free to change.
-    │   │   ├── /config   # configs for your application, like urls api, etc
     │   │   ├── /Modulo   # your module
     │   │   │   ├── moduloAction.js       # actions requests
     │   │   │   ├── moduloActionTypes.js  # action types constants 
@@ -66,32 +71,22 @@ Sistema teste
 
 ## Frontend ##
 
-**Conexões entre os arquivos:**
+**Conection behind files:**
 
 - Component > Container > Connector > Reducer e Action > Services 
 
-**Dicas:**
+**Tips:**
 
-- A pasta /client/src/Auth guarda os componentes de autenticação implemente sua rotina de autenticação de acordo como
-  for necessário.
-- Reducer: É um ...
-- Action: É um ...
-- Action Types: É um ...
+- Reducer: Is a ...
+- Action: Is a ...
+- Action Types: Is a ...
 
-## Tarefas ##
+## Todo ##
 
-Para as tarefas utilizar o Trello [trello.com](trello.com)
-
-- [ ] Corrigir deploy para o heroku
-- [ ] Aplicar os conceitos abaixo e remover Sass
+- [ ] Fix Heroku deploy
+- [ ] Apply those concepts:
     - https://github.com/JedWatson/classnames
     - https://github.com/cssinjs/react-jss#custom-setup
     - http://cssinjs.org/jss-preset-default/?v=v3.0.
     - http://cssinjs.org/plugins/?v=v8.1.0
-- [X] Criar tarefas de deploy
-- [ ] Alterar dependencia 
-- [ ] Melhorar Container principal, menu lateral, etc
-- [ ] Colocar os scripts do projeto para es2x
-- [ ] Melhorar server
-- [ ] Melhorar tamanho do build do client
 
